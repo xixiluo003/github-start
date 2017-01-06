@@ -7,6 +7,22 @@ html, body {
 body {
     font-family: "Ariel", sans-serif;
     border: 2px solid cadetblue;
+    margin: 0px 2px;
+}
+/* ======= ======= ======= navigation bar ======= ======= ======= */
+.navbar {
+    display: block;
+    width: 100%;
+    height: 25px;
+}
+
+.toptab{
+/*  border: 2px solid black;*/
+    display: inline-block;
+    float: left;
+    width: 30%
+    height: 5px;
+    margin: 0 10px 0 10px;
 }
 
 /* ======= ======= =======  sections  ======= ======= ======= */
