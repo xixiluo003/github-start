@@ -1,0 +1,37 @@
+
+/* ======= ======= ======= ======= ======= general ======= ======= ======= ======= ======= */
+html, body {
+    height: 100%;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Ariel", sans-serif;
+    border: 2px solid cadetblue;
+}
+
+/* ======= ======= ======= ======= ======= sections ======= ======= ======= ======= ======= */
+.section {
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid purple;
+}
+
+/* ======= header ======= */
+#header {
+    background-color: #ddd;
+}
+
+/* ======= container ======= */
+#container {
+    border: 2px solid darkorange;
+}
+
+
+
+
+
+
+
+/* ======= ======= ======= ======= ======= ARCHIVE ======= ======= ======= ======= ======= */
+/* ======= ======= ======= ======= ======= ARCHIVE ======= ======= ======= ======= ======= */
+/* ======= ======= ======= ======= ======= ARCHIVE ======= ======= ======= ======= ======= */
