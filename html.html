@@ -32,11 +32,31 @@
 	        <p>HTML</p>
 	    </div>
 
-		<!-- ======= ======= Footer ======= ======= -->
+	    <!-- ======= ======= Body ======= ======= -->
 
 		<div id="content" class="section">
-			<p>Content</p>
-		</div>
+			<p> HTML Stands for HyperText Markup Language. It contains different pieces of code called elements. These elements fits together like lego blocks builds the basic structure of a website. HTML does not have any styling by default. </p>
+			
+			<p>Tags</p>
+			<p>In HTML a tag is used for creating an element.  The name of an HTML element is the name used in angle brackets such as &lt;p> for paragraph.  Note that the end tag's name is preceded by a slash character, "&lt;p>", and that in empty elements the end tag is neither required nor allowed. If attributes are not mentioned, default values are used in each case. </p>
+			
+			<!-- ======= Pop-up picture ======= -->
+			<div id="showPhoto" class="showexample" onclick="showPhoto()">
+				<p>See Example Here</p>
+			</div>
+
+			<div id="imgexample">
+				<img src="anatomy-of-an-html-element.png">
+			</div>
+
+			<!-- ======= Useful Links ======= -->
+			<div>
+				<p>Other useful links:</p>
+				<a href="http://www.w3schools.com/html/default.asp">W3Schools</a>
+				<a href="http://www.htmlgoodies.com/">HTML Goodies</a>
+				<a href="https://designshack.net/articles/css/7-awesome-emmet-html-time-saving-tips/">Emmet Cheatsheet</a>
+				<a href="http://www.lipsum.com/">Lorem Ipsum</a>
+			</div>
 
 
 	    <!-- ======= ======= Footer ======= ======= -->
@@ -47,6 +67,17 @@
 
 		<!-- == scripts == -->
 		<script type="text/javascript" src="script.js"></script>
+
+		<script type="text/javascript">
+			
+		function showPhoto() {
+			console.log("showPhoto");
+			var photoDiv = document.getElementById("imgexample");
+			photoDiv.style.display = "block";
+		}
+
+
+		</script>
 
 	</body>
 </html>
